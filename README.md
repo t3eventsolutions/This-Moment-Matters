@@ -21,3 +21,7 @@ Open `index.html` in a browser. To use a local server, run `python -m http.serve
 5. Wait for GitHub to publish and use the URL shown in Pages settings.
 
 Free hosting generally provides a platform URL. A custom domain normally costs extra. This is a first draft and has not been deployed or tested in every browser.
+
+
+## Update: Party Tent Rental
+The services section now includes a **standalone Party Tent Rental** card featuring the business's provided tent photo. The event inquiry dropdown also includes “Party Tent Rental (standalone).” The supplied tent photos are included as `party-tent-event1.jpg` and `party-tent-event2.jpg`.
