@@ -1,27 +1,29 @@
-# T3 Event Solutions website starter
+# T3 Event Solutions — Complete Website Package
 
-Responsive static website built with HTML, CSS, and JavaScript. Includes service sections for Magazine Photo Booth, Magic Mirror Photo Booth, Picture Frame Photo Booth, yard card rentals, an about section, process steps, and an inquiry form.
+This is the updated responsive static website for T3 Event Solutions. It includes the website content discussed before the email-forwarding setup: service descriptions, all supplied Magic Mirror event photos, standalone party tent rental and its photos, social links with QR codes, contact information, and an event inquiry form.
 
-## Preview
-Open `index.html` in a browser. To use a local server, run `python -m http.server 8000` in this folder and visit `http://localhost:8000`.
+## Included
+- Magazine Photo Booth walk-in experience
+- Magic Mirror Photo Booth (photos, videos, GIFs, boomerangs, and digital sharing)
+- Picture Frame Photo Booth
+- Custom Yard Card Signs
+- Party Tent Rental as a standalone service, with two supplied tent photos
+- Partner entertainment options mentioned as availability-dependent (inflatables, gaming trailers, foam experiences)
+- Gallery with 14 Magic Mirror photos and 2 party tent photos; click a photo to enlarge it
+- Facebook, Instagram, and TikTok links and QR codes
+- Tuscaloosa County, Alabama and surrounding areas service area
+- Contact: T3EventSolutions@gmail.com · 205-310-8336
+- Inquiry form that opens a prefilled email draft; customers must press Send
 
-## Before launch
-- Replace the comment near the top of `index.html` with a real business email configuration:
-  `<meta name="t3-inquiry-email" content="YOUR-REAL-BUSINESS-EMAIL">`
-  Put your actual email in the `content` value. Do not publish with a placeholder.
-- Verify business details, service area, pricing/availability claims, and partner offerings.
-- Replace the CSS illustrations with real booth and event photos when available.
-- The form uses the visitor's email app and does not store submissions or send them to a server. To receive submissions without a visitor opening email, connect a form backend/service and review its privacy terms.
+## Replace the live website on GitHub Pages
+1. Download and extract this ZIP file.
+2. Open the existing GitHub repository that publishes `t3eventsolutions.github.io` / your custom domain.
+3. Upload `index.html`, `styles.css`, `script.js`, and the complete `images` folder, keeping the folder structure and filenames intact.
+4. Commit the changes to the same branch and folder currently published by GitHub Pages (usually `main` and `/ (root)`). Do not upload the ZIP file itself.
+5. Wait for GitHub Pages to finish deploying, then open the website and refresh. If old content remains, hard-refresh the browser.
 
-## Publish for free with GitHub Pages
-1. Create a GitHub account and a public repository, e.g. `t3-event-solutions-website`.
-2. Upload `index.html`, `styles.css`, `script.js`, and `README.md` to the repository root.
-3. Go to repository Settings → Pages.
-4. Choose deploy from the `main` branch and `/ (root)`.
-5. Wait for GitHub to publish and use the URL shown in Pages settings.
-
-Free hosting generally provides a platform URL. A custom domain normally costs extra. This is a first draft and has not been deployed or tested in every browser.
-
-
-## Update: Party Tent Rental
-The services section now includes a **standalone Party Tent Rental** card featuring the business's provided tent photo. The event inquiry dropdown also includes “Party Tent Rental (standalone).” The supplied tent photos are included as `party-tent-event1.jpg` and `party-tent-event2.jpg`.
+## Important
+- This is a static site. The inquiry form does not store messages on the website; it prepares an email for the visitor to send.
+- Existing GoDaddy domain registration and GitHub Pages hosting settings should not need to change to publish this update.
+- The package does not make any changes to Cloudflare, GoDaddy DNS, or your live GitHub repository.
+- Check that you have permission to publish all event photos.
